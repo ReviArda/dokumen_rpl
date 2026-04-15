@@ -27,10 +27,10 @@ Berikut adalah ringkasan semua langkah dari awal sampai selesai, termasuk rumus 
 
 | KETERANGAN | NILAI | Rumus |
 | :--- | :--- | :--- |
-| **TP** | 5 | `(dari SUM kolom D)` |
-| **TN** | 81 | `(dari SUM kolom E)` |
-| **FP** | 2 | `(dari SUM kolom F)` |
-| **FN** | 12 | `(dari SUM kolom G)` |
+| **TP** | 5 | `(=SUM(D6:D106))` |
+| **TN** | 81 | `(=SUM(E6:E106))` |
+| **FP** | 2 | `(=SUM(F6:F106))` |
+| **FN** | 12 | `(=SUM(G6:G106))` |
 | **Total Data**| 100 | `=COUNTA(B5:B104)` |
 
 ---
